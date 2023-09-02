@@ -1,7 +1,21 @@
+#include "chunk.h"
 #include "common.h"
-#include <stdio.h>
+#include "debug.h"
 
 int main(int argc, char *argv[]) {
-    printf("CLOX!");
+    Chunk chunk;
+    initChunk(&chunk);
+
+    int constant = addConstant(&chunk, 1.2);
+    writeChunk(&chunk, OP_CONSTANT);
+    writeChunk(&chunk, constant);
+
+    writeChunk(&chunk, OP_RETURN);
+
+    // See what is a chunk
+    disassembleChunk(&chunk, "test chunk");
+
+    freeChunk(&chunk);
+
     return 0;
 }
