@@ -1,3 +1,14 @@
 BasedOnStyle: LLVM
 IndentWidth: 4
 Language: Cpp
+
+# AlignConsecutiveShortCaseStatements:
+#   Enabled: true
+#   AcrossEmptyLines: true
+#   AcrossComments: true
+#   AlignCaseColons: true
+
+AllowShortCaseLabelsOnASingleLine: true
+
+IndentCaseBlocks: true
+IndentCaseLabels: true
