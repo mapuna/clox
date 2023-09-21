@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -g -O3 -std=c11
+CFLAGS = -g -O3 -std=c11 -ggdb  -Werror # -Wall -Wextra -pedantic
 TARGET_EXEC = clox
 
 BUILD_DIR = build
