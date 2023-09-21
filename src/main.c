@@ -29,8 +29,6 @@ int main(int argc, char *argv[]) {
 
     writeChunk(&chunk, OP_RETURN, 123);
 
-    // See what is a chunk
-    // disassembleChunk(&chunk, "test chunk");
     interpret(&chunk);
     freeVM();
     freeChunk(&chunk);
