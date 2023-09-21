@@ -91,3 +91,15 @@ DIGIT          → "0" ... "9" ;
 - `20230903`: Added the code line info to the bytecode table
 - `20230904`: Added basic VM, stack, stack tracing for arithmetic expressions.
 - `20230920`: Code scanning finished.
+
+## License
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This is a derived work. Original source belongs to Nystorm's book and is licensed under the what the book specifies. The derivation -- all modifications and additions -- is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
