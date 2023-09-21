@@ -23,7 +23,8 @@ void freeVM();
 
 /* The VM runs the chunk and then responds with a value from `InterpretResult`
  * enum: */
-InterpretResult interpret(Chunk *chunk);
+// InterpretResult interpret(Chunk *chunk);
+InterpretResult interpret(const char *source);
 void push(Value value);
 Value pop();
 
