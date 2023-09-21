@@ -90,3 +90,4 @@ DIGIT          → "0" ... "9" ;
 - `20230902`: Built the bytecode table
 - `20230903`: Added the code line info to the bytecode table
 - `20230904`: Added basic VM, stack, stack tracing for arithmetic expressions.
+- `20230920`: Code scanning finished.
