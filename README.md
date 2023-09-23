@@ -92,6 +92,7 @@ DIGIT          → "0" ... "9" ;
 - `20230904`: Added basic VM, stack, stack tracing for arithmetic expressions.
 - `20230920`: Code scanning finished.
 - `20230921`: Expression parsing and compilation done!
+- `20230923`: Unary and binary expression compilation done.
 
 ## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
