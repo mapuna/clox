@@ -93,6 +93,7 @@ DIGIT          → "0" ... "9" ;
 - `20230920`: Code scanning finished.
 - `20230921`: Expression parsing and compilation done!
 - `20230923`: Unary and binary expression compilation done.
+- `20230924`: Dealt with strings
 
 ## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
