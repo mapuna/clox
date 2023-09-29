@@ -98,7 +98,7 @@ bool tableGet(Table *table, ObjString *key, Value *value) {
     return true;
 }
 
-bool tableDetele(Table *table, ObjString *key) {
+bool tableDelete(Table *table, ObjString *key) {
     if (table->count == 0)
         return false;
 
